@@ -1,0 +1,6 @@
+/Users/sabgames/Projects/CrosswordG/CrosswordG/obj/Debug/CrosswordG.csprojAssemblyReference.cache
+/Users/sabgames/Projects/CrosswordG/CrosswordG/obj/Debug/CrosswordG.csproj.CoreCompileInputs.cache
+/Users/sabgames/Projects/CrosswordG/CrosswordG/bin/Debug/CrosswordG.exe
+/Users/sabgames/Projects/CrosswordG/CrosswordG/bin/Debug/CrosswordG.pdb
+/Users/sabgames/Projects/CrosswordG/CrosswordG/obj/Debug/CrosswordG.exe
+/Users/sabgames/Projects/CrosswordG/CrosswordG/obj/Debug/CrosswordG.pdb
