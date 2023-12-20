@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-//using UnityEditor;
-//using UnityEngine;
-//using Random = UnityEngine.Random;
 
 namespace SabGames.Words
 {
@@ -43,8 +40,6 @@ namespace SabGames.Words
         private static int _currentAttempt = 0;
         public static List<WordC> _words = new List<WordC>();
         private static char[,] Matrix => ListToMatrix(_words, '*');
-        //public static List<Vector2Int> start = new List<Vector2Int>();
-        //public static List<Vector2Int> end = new List<Vector2Int>();
         public static List<string> wordList = new List<string>();
         static Random rand = new Random();
         private static int _callClear;
@@ -53,19 +48,6 @@ namespace SabGames.Words
         {
             var words = new List<string>
             {
-                 "فأر",
-                 "قط",
-                 "فعل"
-
-                 //"goodly",
-                 //"dog",
-                 //"god",
-                 //"old",
-                 //"log",
-                 //"gold",
-                 //"goo",
-                 //"godly"
-
                 //"TTTTTTU",
                 //"TAS",
                 //"SSSQSQ",
@@ -103,8 +85,6 @@ namespace SabGames.Words
 
         public static char[,] GenerateCrossword(List<string> originalWords)
         {
-            //start.Clear();
-            //end.Clear();
             wordList.Clear();
             _words.Clear();
             int maxAttempts = 100;
@@ -235,15 +215,7 @@ namespace SabGames.Words
                 wordList.Clear();
                 _words.Clear();
             }
-            //if (direction == Direction.Down)
-            //{
-            //    end.Add(new Vector2Int(startX, startY + word.Length - 1));
-            //}
-            //else
-            //{
-            //    end.Add(new Vector2Int(startX + word.Length - 1, startY));
-            //}
-            //start.Add(new Vector2Int(startX, startY));
+            
             WordC newWord;
             newWord.direction = direction;
             newWord.startX = startX;
